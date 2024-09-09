@@ -1,0 +1,27 @@
+.feedback-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.feedback-submitted {
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: #18191b;
+    border-color: #4a4e52;
+}
+
+.btn-primary:hover {
+    background-color: #121314;
+    border-color: #758aa0;
+}

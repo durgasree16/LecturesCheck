@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  width: 100%; /* Ensure the navbar spans the entire width */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure the navbar is on top of other content */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left h1 {
+  color: white;
+  margin-right: 2rem;
+  font-size: 2rem; /* Adjusted to 2rem to fit better on screen */
+  display: flex;
+  align-items: center; /* Align icon and text */
+}
+
+.navbar-left h1 .fa-graduation-cap {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.navbar-left ul, .navbar-right ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-left ul li, .navbar-right ul li {
+  margin-right: 1.5rem;
+}
+
+.navbar-left ul li a, .navbar-right ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-left ul li a:hover, .navbar-right ul li a:hover {
+  text-decoration: underline;
+}
+/* src/components/Navbar.css */
+.navbar .profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar .dropdown-menu-right {
+  right: 0;
+  left: auto;
+}

@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-btn-primary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+/* Upload Component Styles */
+.upload-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.upload-box {
+  padding: 20px;
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+  border-color: #4CAF50;
+  background-color: #f9f9f9;
+}
+
+.upload-box button {
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.upload-preview {
+  margin-top: 20px;
+}
+
+.upload-preview video,
+.upload-preview object {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-submit {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.chart-container {
+  margin-top: 40px;
+}
+
+.chart-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #4CAF50;
+}
